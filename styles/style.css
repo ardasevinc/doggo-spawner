@@ -60,7 +60,14 @@ main figure {
   align-items: center;
 }
 
-.doggo {
+.preload {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: var(--base-complement);
+}
+
+.doggo-pic {
   width: 100%;
   height: 100%;
 }
@@ -82,9 +89,14 @@ footer {
   color: var(--base-complement);
   font-size: 2rem;
   font: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
-.button6 {
+.source:hover {
+  text-decoration: underline;
+}
+
+.cool-button {
   display: inline-block;
   padding: 0.7em 1.4em;
   margin: 0 0.3em 0.3em 0;
@@ -101,13 +113,22 @@ footer {
   position: relative;
 }
 
-.button6:active {
+.cool-button:active {
   top: 0.1em;
 }
 
 @media all and (max-width: 30em) {
-   .button6 {
+   .cool-button {
     display: block;
     margin: 0.4em auto;
   }
+}
+
+.nodisplay {
+  display: none;
+}
+
+img.loader {
+  background-color: var(--base-black);
+  color: var(--base-black);
 }
