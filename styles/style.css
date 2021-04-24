@@ -120,7 +120,7 @@ footer {
 }
 
 @media all and (max-width: 30em) {
-   .cool-button {
+  .cool-button {
     display: block;
     margin: 0.4em auto;
   }
