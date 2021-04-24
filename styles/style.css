@@ -16,6 +16,7 @@ body {
 
 body {
   background-color: var(--base-black);
+  overflow: hidden;
 }
 
 header {
@@ -83,6 +84,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding-bottom: 1rem;
 }
 
 .source {
